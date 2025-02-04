@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Bachelor Student @ <a href='https://lennemo09.github.io/projects/'>VinUniversity</a>
+          <a href='https://vl4ai.erc.monash.edu/index.html'>Visual & Learning for Autonomous AI Lab</a> @ Monash University
 
 profile:
   align: right
