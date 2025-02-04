@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-      Bachelor Student @ VinUniversity <br>
+      Bachelor Junior @ VinUniversity <br>
       <a href='https://vl4ai.erc.monash.edu/index.html'>Visual & Learning for Autonomous AI Lab</a>
 
 profile:
