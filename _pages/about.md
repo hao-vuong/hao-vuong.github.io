@@ -34,13 +34,11 @@ latest_posts:
 
 ---
 
-Under development :>
+I am a junior student at [VinUniversity](https://vinuni.edu.vn/). I major in Computer Science advised by [Prof. Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/) and [Prof. Wray Buntine](https://bayesian-models.org/). 
 
-I am a junior student at [VinUniversity](https://vinuni.edu.vn/). I major in Computer Science advised by [Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/) and [Wray Buntine](https://bayesian-models.org/). 
+I am currently doing research closely with [Boying Li](https://leeby68.github.io/) at [VL4AI Lab](https://vl4ai.erc.monash.edu/index.html) under supervision of [Prof. Hamid Rezatofighi](https://research.monash.edu/en/persons/hamid-rezatofighi) and [Prof. Ian Reid](https://mbzuai.ac.ae/study/faculty/ian-reid/).
 
-I am currently doing research closely with [Boying Li](https://leeby68.github.io/) at [VL4AI](https://vl4ai.erc.monash.edu/index.html) under supervision of Prof. [Hamid Rezatofighi](https://research.monash.edu/en/persons/hamid-rezatofighi).
-
-My research interest lies in robot learning and dynamic 3D vision. 
+My research interest lies in robot learning and dynamic 3D vision. My research clusters in 3 areas: (1) (2) (3)
 
 NOTE : This is currently a sketch page and to be updated!
 
