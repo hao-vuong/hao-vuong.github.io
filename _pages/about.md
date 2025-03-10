@@ -40,6 +40,8 @@ I am currently doing research closely with [Boying Li](https://leeby68.github.io
 
 My research interest lies in robot learning and dynamic 3D vision. My research clusters in 3 areas: (1) (2) (3)
 
+Here are some works that inspire me: [LucidSim](https://lucidsim.github.io/), [Equidiff](https://equidiff.github.io/), [TimeFormer](https://patrickddj.github.io/TimeFormer/), etc..
+
 NOTE : This is currently a sketch page and to be updated!
 
 {% include bib_search.liquid %}
