@@ -48,9 +48,9 @@ Email: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn)
 
 <div class="publications">
 
-<div class="header-bar">
+<!-- <div class="header-bar">
   <h2>publications</h2>
-</div>
+</div> -->
 
 {% bibliography %}
 
