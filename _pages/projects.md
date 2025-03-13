@@ -3,9 +3,9 @@ layout: page
 title: projects
 permalink: /projects/
 description: To be updated
-nav: true
+nav: false
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, misc]
 horizontal: false
 ---
 

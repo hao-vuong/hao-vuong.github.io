@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
       Bachelor Junior @ VinUniversity <br>
-      <a href='https://vl4ai.erc.monash.edu/index.html'>Visual & Learning for Autonomous AI Lab</a>
+      Intern @ <a href='https://vl4ai.erc.monash.edu/index.html'>Visual & Learning for Autonomous AI Lab</a>
 
 profile:
   align: right
@@ -34,19 +34,23 @@ latest_posts:
 
 ---
 
-I am a junior student at [VinUniversity](https://vinuni.edu.vn/). I major in Computer Science advised by [Prof. Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/) and [Prof. Wray Buntine](https://bayesian-models.org/). 
+I am a junior undergraduate student at [VinUniversity](https://vinuni.edu.vn/), advised by [Prof. Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/) and [Prof. Wray Buntine](https://bayesian-models.org/). I am currently doing research closely with [Boying Li](https://leeby68.github.io/) at [VL4AI Lab](https://vl4ai.erc.monash.edu/index.html) under supervision of [Prof. Hamid Rezatofighi](https://research.monash.edu/en/persons/hamid-rezatofighi).
 
-I am currently doing research closely with [Boying Li](https://leeby68.github.io/) at [VL4AI Lab](https://vl4ai.erc.monash.edu/index.html) under supervision of [Prof. Hamid Rezatofighi](https://research.monash.edu/en/persons/hamid-rezatofighi) and [Prof. Ian Reid](https://mbzuai.ac.ae/study/faculty/ian-reid/).
+My research interest focuses on achieving lifelong intelligence in robots through dynamic perception and long-horizon planning, which ultimately forms what I consider to be 'natural' intelligence.
 
-My research interest lies in robot learning and dynamic 3D vision. My research clusters in 3 areas: (1) (2) (3)
+My research clusters in 3 areas: (1) learning real-world 4D environments (2) learning to make long-term decisions (3) scaling reasoning and action continuously.
 
 Here are some works that inspire me: [LucidSim](https://lucidsim.github.io/), [Equidiff](https://equidiff.github.io/), [TimeFormer](https://patrickddj.github.io/TimeFormer/), etc..
 
-NOTE : This is currently a sketch page and to be updated!
+Email: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn)
 
 {% include bib_search.liquid %}
 
 <div class="publications">
+
+<div class="header-bar">
+  <h2>publications</h2>
+</div>
 
 {% bibliography %}
 
