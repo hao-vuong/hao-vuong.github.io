@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-      Bachelor Junior @ VinUniversity <br>
-      Intern @ <a href='https://vl4ai.erc.monash.edu/index.html'>Visual & Learning for Autonomous AI Lab</a>
+      Bachelor Junior @ <a href='https://vinuni.edu.vn/'>VinUniversity</a> <br>
+      Research Intern @ <a href='https://vl4ai.erc.monash.edu/index.html'>Visual & Learning for Autonomous AI Lab</a>
 
 profile:
   align: right
@@ -36,16 +36,9 @@ latest_posts:
 
 I am a junior undergraduate student at [VinUniversity](https://vinuni.edu.vn/), advised by [Prof. Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/) and [Prof. Wray Buntine](https://bayesian-models.org/). I am currently doing research closely with [Boying Li](https://leeby68.github.io/) at [VL4AI Lab](https://vl4ai.erc.monash.edu/index.html) under supervision of [Prof. Hamid Rezatofighi](https://research.monash.edu/en/persons/hamid-rezatofighi).
 
-My research interest focuses on achieving lifelong intelligence in robots through dynamic perception and long-horizon planning, which ultimately forms what I consider to be 'natural' intelligence.
+My research interest focuses on achieving lifelong intelligence in robots through dynamic perception and long-horizon planning, which ultimately forms what I consider to be 'natural' intelligence. My ongoing research clusters in three areas: (1) learning to achieve complex tasks that require foresight (2) learning to make long-term decisions (3) scaling reasoning and action continuously.
 
-My research clusters in 3 areas: (1) learning real-world 4D environments (2) learning to make long-term decisions (3) scaling reasoning and action continuously.
-
-<!-- ongoing research encompass three main thrusts: (1) mastering
-real-world visuomotor control via synthetic data, (2) scaling skill-wise towards a general-purpose robot foundation model, and (3) learning to achieve
-complex tasks that require foresight. The central theme is leveraging virtual
-environments to scale up robot learning. -->
-
-Here are some works that inspire me: [LucidSim](https://lucidsim.github.io/), [Equidiff](https://equidiff.github.io/), [TimeFormer](https://patrickddj.github.io/TimeFormer/), etc..
+Here are some works that inspire me: [LucidSim](https://lucidsim.github.io/), [Equidiff](https://equidiff.github.io/), [TimeFormer](https://patrickddj.github.io/TimeFormer/), [DiffuForcing](https://boyuan.space/diffusion-forcing/), etc..
 
 Email: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn)
 
@@ -53,7 +46,7 @@ Email: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn)
 
 <div class="publications">
 
-<h2>publications</h2>
+<!-- <h2>publications</h2> -->
 
 {% bibliography %}
 
