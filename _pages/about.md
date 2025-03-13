@@ -40,6 +40,11 @@ My research interest focuses on achieving lifelong intelligence in robots throug
 
 My research clusters in 3 areas: (1) learning real-world 4D environments (2) learning to make long-term decisions (3) scaling reasoning and action continuously.
 
+<!-- ongoing research encompass three main thrusts: (1) mastering
+real-world visuomotor control via synthetic data, (2) scaling skill-wise towards a general-purpose robot foundation model, and (3) learning to achieve
+complex tasks that require foresight. The central theme is leveraging virtual
+environments to scale up robot learning. -->
+
 Here are some works that inspire me: [LucidSim](https://lucidsim.github.io/), [Equidiff](https://equidiff.github.io/), [TimeFormer](https://patrickddj.github.io/TimeFormer/), etc..
 
 Email: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn)
@@ -48,9 +53,9 @@ Email: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn)
 
 <div class="publications">
 
-<!-- <div class="header-bar">
+<div class="header-bar">
   <h2>publications</h2>
-</div> -->
+</div>
 
 {% bibliography %}
 
