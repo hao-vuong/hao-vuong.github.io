@@ -5,20 +5,20 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
+  --global-bg-color: #f7f3e8;
+  --global-code-bg-color: #f0ebe0;
+  --global-text-color: #2c2c2c;
+  --global-text-color-light: #5c5c5c;
+  --global-theme-color: #d99621;
+  --global-hover-color: #d99621;
+  --global-hover-text-color: #f7f3e8;
+  --global-footer-bg-color: #2c2c2c;
+  --global-footer-text-color: #a8a8a8;
+  --global-footer-link-color: #d99621;
+  --global-distill-app-color: #888888;
+  --global-divider-color: rgba(0, 0, 0, 0.06);
+  --global-card-bg-color: #fdfcfa;
+  --global-highlight-color: #d99621;
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},

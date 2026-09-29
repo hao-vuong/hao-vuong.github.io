@@ -1,65 +1,69 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: To be updated
-nav: false
+title: more
+permalink: /more/
+description: 
+nav: true
 nav_order: 3
-display_categories: [research, misc]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+<div style="text-align: center; margin-bottom: 50px;">
+  <h4 style="color: var(--global-theme-color); font-style: italic;">
+    <b>I balance robotic proprioception with street proprioception!</b>
+  </h4>
 </div>
+
+<div class="zigzag-gallery">
+  <img src="/assets/img/bot2.jpg" alt="art 1">
+  <img src="/assets/img/graff6.jpg" alt="art 2">
+  <img src="/assets/img/graff9.jpg" alt="art 3">
+  <img src="/assets/img/bot3.jpg" alt="art 4">
+  <img src="/assets/img/graff1.jpg" alt="art 5">
+  <img src="/assets/img/graff12.jpg" alt="art 6">
+  <img src="/assets/img/graff10.jpg" alt="art 7">
+  <img src="/assets/img/graff2.jpg" alt="art 8">
+  <img src="/assets/img/bot1.jpg" alt="art 9">
+  <img src="/assets/img/graff7.jpg" alt="art 10">
+  <img src="/assets/img/graff11.jpg" alt="art 11">
+</div>
+
+<style>
+  .post-header {
+  display: none;
+  }
+
+  .zigzag-gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  
+  .zigzag-gallery img {
+    width: 65%;
+    max-width: 450px;
+    position: relative;
+    border: 8px solid var(--global-card-bg-color); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+  }
+  
+  .zigzag-gallery img:not(:first-child) {
+    margin-top: -15%; 
+  }
+  
+  .zigzag-gallery img:nth-child(odd) {
+    align-self: flex-start;
+    margin-left: 5%;
+  }
+  
+  .zigzag-gallery img:nth-child(even) {
+    align-self: flex-end;
+    margin-right: 5%;
+  }
+  
+  .zigzag-gallery img:hover {
+    z-index: 10;
+    transform: scale(1.02);
+  }
+</style>

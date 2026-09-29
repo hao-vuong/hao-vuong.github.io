@@ -2,18 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-      Bachelor Junior @ <a href='https://vinuni.edu.vn/'>VinUniversity</a> <br>
-      Research Intern @ <a href='https://vl4ai.erc.monash.edu/index.html'>Visual & Learning for Autonomous AI Lab</a>
-
+# subtitle: >
+#       BSc in Computer Science at <a href='https://vinuni.edu.vn/'>VinUniversity</a> <br>
+#       Research Intern at <a href='https://xulabs.github.io/'>Xu Lab @ Carnegie Mellon University</a>
 profile:
   align: right
-  image: 
+  image: onebeer.jpg
   image_circular: false # crops the image to make it circular
-  more_info: # >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  more_info:  >
+     <p><a href="mailto:22hao.vc@vinuni.edu.vn">22hao.vc@vinuni.edu.vn</a></p>
+
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -34,15 +32,40 @@ latest_posts:
 
 ---
 
-I am a junior undergraduate student at [VinUniversity](https://vinuni.edu.vn/), advised by [Prof. Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/) and [Prof. Wray Buntine](https://bayesian-models.org/). I am currently doing research closely with [Boying Li](https://leeby68.github.io/) at [VL4AI Lab](https://vl4ai.erc.monash.edu/index.html) under supervision of [Prof. Hamid Rezatofighi](https://research.monash.edu/en/persons/hamid-rezatofighi).
+<!-- <div class="desc">
+  BSc in Computer Science at <a href='https://vinuni.edu.vn/'>VinUniversity</a> <br>
+  Research Intern at <a href='https://xulabs.github.io/'>Xu Lab @ Carnegie Mellon University</a>
+</div>
+<br> -->
 
-My research interest focuses on achieving lifelong intelligence in robots through dynamic perception and long-horizon planning, which ultimately forms what I consider to be 'natural' intelligence. My ongoing research clusters in three areas: (1) learning to achieve complex tasks that require foresight (2) learning to make long-term decisions (3) scaling reasoning and action continuously.
+BSc in Computer Science at <a href='https://vinuni.edu.vn/'>VinUniversity</a> <br>
+Research Intern at <a href='https://xulabs.github.io/'>Xu Lab @ Carnegie Mellon University</a>
 
-Here are some works that inspire me: [LucidSim](https://lucidsim.github.io/), [Equidiff](https://equidiff.github.io/), [TimeFormer](https://patrickddj.github.io/TimeFormer/), [DiffuForcing](https://boyuan.space/diffusion-forcing/), etc..
+I am an undergraduate at [VinUniversity](https://vinuni.edu.vn/), advised by [Prof. Laurent El Ghaoui](https://people.eecs.berkeley.edu/~elghaoui/) and [Prof. Wray Buntine](https://bayesian-models.org/). Currently, I am doing research at [Xu Lab](https://xulabs.github.io/) on embodied AI for autonomous laboratories under [Prof. Min Xu](https://xulabs.github.io/min-xu/). Before this, I did research on 3D Vision with [Boying Li](https://leeby68.github.io/) at [VL4AI Lab](https://vl4ai.erc.monash.edu/index.html) under supervision of [Prof. Hamid Rezatofighi](https://research.monash.edu/en/persons/hamid-rezatofighi).
 
-Email: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn)
+I aspire to explore that certain internal ”space” of imagination in each of our own minds that only us can ”see” ourselves. AI has excelled at perceiving what is in front of its eyes, but how about behind its mind? I am curious how robots can simulate their own world dynamics in 2D and 3D to infer counterfactuals. Once robots can simulate real physical dynamics correctly, where do we go after? Can we embrace hallucination and expect artificial creativity to emerge? Through my lens, creativity comes after reality. It is only truly defined after one acknowledges reality and decides to go beyond it. <span style="color: var(--global-theme-color);">My motivation in this field is the curiosity in our own minds and our sense of imagination, which is the core of each individual and what defines intelligence, intuition and personality.</span>
 
-{% include bib_search.liquid %}
+<blockquote style="font-size: 1.10rem;">
+  Imagination is more important than knowledge. For knowledge is limited,<br>
+  whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.<br>
+  <footer class="blockquote-footer">Albert Einstein, <cite title="Source Title">Cosmic Religion, 1931</cite></footer>
+</blockquote>
+
+<!-- <blockquote>
+  Imagination is more important than knowledge. <br>
+  For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution <br>
+  Albert Einstein, Cosmic Religion, 1931
+</blockquote> -->
+
+<!-- <blockquote>
+  Imagination is more important than knowledge.<br>
+  For knowledge is limited... while imagination embraces the entire world.<br>
+  Albert Einstein
+</blockquote> -->
+
+<!-- 📩 Contact: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn) -->
+
+<!-- {% include bib_search.liquid %} -->
 
 <div class="publications">
 
@@ -51,3 +74,13 @@ Email: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn)
 {% bibliography %}
 
 </div>
+
+<!-- <h2>projects</h2>
+<div class="projects">
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div> -->
