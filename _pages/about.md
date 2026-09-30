@@ -88,10 +88,7 @@ I aspire to explore that certain internal ”space” of imagination in each of 
 <style>
   @media (max-width: 576px) {
     .profile {
-      width: 55% !important;
-      max-width: 250px;
-      margin: 0 auto 20px auto !important;
-      display: block;
+      display: none !important;
     }
   }
 </style>
