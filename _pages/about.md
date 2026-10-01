@@ -51,6 +51,10 @@ I aspire to explore that certain internal ”space” of imagination in each of 
   <footer class="blockquote-footer">Albert Einstein, <cite title="Source Title">Cosmic Religion, 1931</cite></footer>
 </blockquote>
 
+<div class="mobile-mail">
+  📩 Contact: <a href="mailto:22hao.vc@vinuni.edu.vn">22hao.vc@vinuni.edu.vn</a>
+</div>
+
 <!-- <blockquote>
   Imagination is more important than knowledge. <br>
   For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution <br>
@@ -86,9 +90,17 @@ I aspire to explore that certain internal ”space” of imagination in each of 
 </div> -->
 
 <style>
+  .mobile-mail {
+    display: none;
+  }
+  
   @media (max-width: 576px) {
     .profile {
       display: none !important;
+    }
+    .mobile-mail {
+      display: block;
+      margin-top: 15px;
     }
   }
 </style>
