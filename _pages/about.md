@@ -55,18 +55,6 @@ I aspire to explore that certain internal ”space” of imagination in each of 
   📩 Contact: <a href="mailto:22hao.vc@vinuni.edu.vn">22hao.vc@vinuni.edu.vn</a>
 </div>
 
-<!-- <blockquote>
-  Imagination is more important than knowledge. <br>
-  For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution <br>
-  Albert Einstein, Cosmic Religion, 1931
-</blockquote> -->
-
-<!-- <blockquote>
-  Imagination is more important than knowledge.<br>
-  For knowledge is limited... while imagination embraces the entire world.<br>
-  Albert Einstein
-</blockquote> -->
-
 <!-- 📩 Contact: [22hao.vc@vinuni.edu.vn](22hao.vc@vinuni.edu.vn) -->
 
 <!-- {% include bib_search.liquid %} -->
@@ -78,16 +66,6 @@ I aspire to explore that certain internal ”space” of imagination in each of 
 {% bibliography %}
 
 </div>
-
-<!-- <h2>projects</h2>
-<div class="projects">
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-</div> -->
 
 <style>
   .mobile-mail {
